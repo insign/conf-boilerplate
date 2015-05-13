@@ -77,7 +77,7 @@ module.exports = {
           text: "@linus"
         },
         presentation: {
-          title      : "Digging into a Linux Kernel",
+          title      : "Conhecendo o Kernel do Linux",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time       : "10h00"
         }
@@ -92,7 +92,7 @@ module.exports = {
           text: "@billy95"
         },
         presentation: {
-          title      : "Introducing Windows 12",
+          title      : "Apresentando o Windows 12",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time       : "11h00"
         }
@@ -111,7 +111,7 @@ module.exports = {
           text: "@littlechuck"
         },
         presentation: {
-          title      : "How to kill a elephant with one finger",
+          title      : "Como matar um elephant com um dedo",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time       : "13h00"
         }
