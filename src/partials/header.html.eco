@@ -8,14 +8,14 @@
 <header class="header">
   <div class="wrapper">
     <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
+      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %><br><%= @conf.city %> - <%= @conf.state %></a>
     </h1>
-    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
+    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %> - <%= @conf.city %></h2>
 
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
         <% if @conf.price: %>
-          <span class="price">Only <%= @conf.price %></span>
+          <span class="price">Apenas <%= @conf.price %></span>
         <% end %>
 
         <% if @callToAction: %>

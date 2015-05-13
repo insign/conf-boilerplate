@@ -1,0 +1,17 @@
+<h2 class="section-title"><%= @labels['contato'] %></h2>
+<p>Em caso de dúvidas entre em contato pelo formulário ou ligue (98) 98197-0910</p>
+<form method="post" action="contact.php" id="form" class="form">
+  <div class="control-group control-group-name">
+    <label for="name">Nome</label>
+    <input type="text" name="name" id="name" placeholder="Seu nome">
+  </div>
+  <div class="control-group control-group-email">
+    <label for="email">E-mail</label>
+  <input type="email" name="email" id="email" placeholder="Seu e-mail">
+  </div>
+  <div class="control-group">
+    <label for="message">Mensagem</label>
+  <textarea name="" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+  </div>
+  <input class="btn btn-send" type="submit" value="Enviar">
+</form>

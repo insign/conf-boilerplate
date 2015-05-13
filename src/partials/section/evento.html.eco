@@ -1,0 +1,6 @@
+<h2 class="section-title"><%= @labels['evento'] %></h2>
+<p itemprop="description">O Google I/O é uma conferência de programadores que é organizada anualmente pela Google em São Francisco, Califórnia, Estados Unidos. O objetivo dessa conferência é orientar os programadores a melhorar seus programas com técnicas que a Google demonstra. Nessa conferência a Google também anuncia novos produtos e novas versões do sistema operacional Android.</p>
+
+<p>Google I/O Extended, evento que, como o nome já diz, serve como uma extensão local do acontecimento global. Junto com a apresentação feita pela empresa a todo o mundo e transmitida pela internet, os participantes poderão contar com palestras de especialistas em temas como webdesign, desenvolvimento de aplicativos, indexação e outros produtos e ferramentas da empresa.</p>
+
+<p>Uma das grandes expectativas para o Google I/O 2015 é a apresentação do novo Nexus, o aparelho do Google com Android puro que, de acordo com os rumores, está sendo fabricado pela Huawei. Além disso, sempre é possível que a gente veja novidades sobre o Project Ara, o celular modular da empresa, e o Tango, seu tablet com realidade aumentada e um grande foco nas tecnologias vestíveis, com destaque para os relógios. Além disso, também pode ocorrer uma aparição do Glass em nova forma.</p>

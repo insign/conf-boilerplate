@@ -16,11 +16,34 @@
   <meta property="og:url" content="<%= @site.url %>">
   <meta property="og:title" content="<%= @conf.name %>">
   <meta property="og:description" content="<%= @conf.description %>">
-  <meta property="og:image" content="<%= @getUrl() %>/<%= @getTheme() %>/img/badge.jpg">
+  <meta itemprop="image" content="https://events.google.com/io2015/images/io15-color.png">
   <!-- / FACEBOOK -->
 
-  <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="<%= @getTheme() %>/img/apple-touch-icon.png">
+<meta name="theme-color" content="#eceff1">
+
+  
+  <meta name="mobile-web-app-capable" content="yes"> 
+  <meta name="application-name" content="<%= @conf.name %>"> 
+
+  <link rel="icon" sizes="192x192" href="https://events.google.com/io2015/images/touch/homescreen192.png">
+
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="<%= @conf.name %>">
+
+  
+  <link rel="shortcut icon" href="https://events.google.com/io2015/images/touch/homescreen72-fav.png">
+  <link rel="apple-touch-icon" href="https://events.google.com/io2015/images/touch/homescreen48.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://events.google.com/io2015/images/touch/homescreen72.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="https://events.google.com/io2015/images/touch/homescreen96.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://events.google.com/io2015/images/touch/homescreen144.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="https://events.google.com/io2015/images/touch/homescreen192.png">
+
+  
+  <meta name="msapplication-TileImage" content="https://events.google.com/io2015/images/touch/homescreen144.png">
+  <meta name="msapplication-TileColor" content="#eceff1">
+  <meta name="msapplication-tap-highlight" content="no">
 
   <!-- STYLES -->
   <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/main.css">
@@ -40,7 +63,7 @@
         <%- @content %>
         <!-- FOOTER -->
         <footer class="footer">
-          <p>Made with ♥ by <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> :)</p>
+          <p>Feito com ♥ via <a target="_blank" href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a>. Imagem "<a href="http://www.9d.com.br/saoluis/lagoa-da-jansen/" target="_blank">Lagoa da Jansen</a>" via <a target="_blank" href="http://9d.com.br">9D studio</a></p>
         </footer>
         <!-- / FOOTER -->
       </div>
