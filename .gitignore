@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-out
 
 # Created by https://www.gitignore.io
 
@@ -37,9 +36,6 @@ out
 *.iws
 
 ## Plugin-specific files:
-
-# IntelliJ
-/out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -148,8 +144,6 @@ $RECYCLE.BIN/
 
 ## Plugin-specific files:
 
-# IntelliJ
-/out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/

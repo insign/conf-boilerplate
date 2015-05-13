@@ -69,7 +69,7 @@ module.exports = {
       },
       {
         name        : "Linus Torvalds",
-        photo       : "themes/yellow-swan/img/speaker.jpg",
+        photo       : "themes/meu-material/img/speaker.jpg",
         bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company     : "Linux Foundation",
         link        : {
@@ -84,7 +84,7 @@ module.exports = {
       },
       {
         name        : "Bill Gates",
-        photo       : "themes/yellow-swan/img/speaker.jpg",
+        photo       : "themes/meu-material/img/speaker.jpg",
         bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company     : "Microsoft",
         link        : {
@@ -98,12 +98,12 @@ module.exports = {
         }
       },
       {
-        name: "Lunch",
+        name: "Almoço",
         time: "12h00"
       },
       {
         name        : "Chuck Norris",
-        photo       : "themes/yellow-swan/img/speaker.jpg",
+        photo       : "themes/meu-material/img/speaker.jpg",
         bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company     : "Delta Command",
         link        : {
@@ -118,7 +118,7 @@ module.exports = {
       },
       {
         name        : "Steve Jobs",
-        photo       : "themes/yellow-swan/img/speaker.jpg",
+        photo       : "themes/meu-material/img/speaker.jpg",
         bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company     : "Apple, Inc.",
         link        : {
@@ -126,7 +126,7 @@ module.exports = {
           text: "@stevie"
         },
         presentation: {
-          title      : "Presenting iPad",
+          title      : "Apresentando o iPad",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time       : "14h00"
         }
@@ -137,7 +137,7 @@ module.exports = {
       },
       {
         name        : "Mark Zuckerberg",
-        photo       : "themes/yellow-swan/img/speaker.jpg",
+        photo       : "themes/meu-material/img/speaker.jpg",
         bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company     : "Facebook",
         link        : {
@@ -145,14 +145,14 @@ module.exports = {
           text: "@zuck"
         },
         presentation: {
-          title      : "Revealing Facebook Secrets",
+          title      : "Revelando os segredos do Facebook",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time       : "16h00"
         }
       },
       {
         name        : "Steve Wozniak",
-        photo       : "themes/yellow-swan/img/speaker.jpg",
+        photo       : "themes/meu-material/img/speaker.jpg",
         bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company     : "Apple, Inc.",
         link        : {
@@ -160,7 +160,7 @@ module.exports = {
           text: "@woz"
         },
         presentation: {
-          title      : "Why do I prefer Android over iPhone",
+          title      : "Porque eu prefiro Android em vez de iOS",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time       : "17h00"
         }
@@ -170,8 +170,13 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
+        name: "9D studio",
+        logo: "themes/meu-material/img/9d.jpg",
+        url : "http://9d.com.br"
+      },
+      {
         name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
+        logo: "themes/meu-material/img/sponsor.png",
         url : "http://eventick.com.br"
       }
     ],
@@ -180,7 +185,7 @@ module.exports = {
     partners: [
       {
         name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
+        logo: "themes/meu-material/img/partner.png",
         url : "http://braziljs.org"
       }
     ],
