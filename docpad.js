@@ -65,105 +65,47 @@ module.exports = {
     schedule: [
       {
         name: "Check-in / Breakfast",
-        time: "9h00"
+        time: "8h00"
       },
       {
-        name        : "Linus Torvalds",
-        photo       : "themes/meu-material/img/speaker.jpg",
-        bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company     : "Linux Foundation",
+        name        : "Fábio Assunção",
+        photo       : "themes/meu-material/img/perfil2.jpg",
+        bio         : "Front / back-end web developer at VAT S/A. Graduando em Engenharia da Computação, pai do Gabriel, freelancer em tempo parcial e eterno aprendiz.",
+        company     : "VAT",
         link        : {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "http://twitter.com/fabiioassuncao",
+          text: "@fabiioassuncao"
         },
         presentation: {
-          title      : "Conhecendo o Kernel do Linux",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time       : "10h00"
-        }
-      },
-      {
-        name        : "Bill Gates",
-        photo       : "themes/meu-material/img/speaker.jpg",
-        bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company     : "Microsoft",
-        link        : {
-          href: "http://github.com/billy95",
-          text: "@billy95"
-        },
-        presentation: {
-          title      : "Apresentando o Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time       : "11h00"
+          title      : "JavaScript, um mundo além do browser.",
+          description: "Quando alguém te fala em JavaScript o que lhe vem a mente? Manipular o DOM? Esqueça isso, você pode fazer muito mais com o JavaScript. Com ele você pode além de desenvolver complexas aplicações web, também fazer grandes apps para dispositivos móveis, desktop, servidor e até desenvolver para Arduíno, Raspberry e mais uma infinidade de possibilidades.",
+          time       : "08h30"
         }
       },
       {
         name: "Almoço",
-        time: "12h00"
+        time: "11h40"
       },
       {
-        name        : "Chuck Norris",
-        photo       : "themes/meu-material/img/speaker.jpg",
-        bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company     : "Delta Command",
-        link        : {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
-        },
-        presentation: {
-          title      : "Como matar um elephant com um dedo",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time       : "13h00"
-        }
-      },
-      {
-        name        : "Steve Jobs",
-        photo       : "themes/meu-material/img/speaker.jpg",
-        bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company     : "Apple, Inc.",
-        link        : {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title      : "Apresentando o iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time       : "14h00"
+        photo       : "themes/meu-material/img/google.png",
+        company     : "Google",
+        presentation:{
+          title       : "Keynote Oficial Google I/O",
+          description : "Apresentação do keynote oficial direto do evento Google I/O São Francisco.",  
+          time        : "13h30"
         }
       },
       {
         name: "Coffee-break",
-        time: "15h00"
+        time: "16h00"
+      }, 
+      {
+        name: "Painel de debate sobre as novas tecnologias.",
+        time: "16h30"
       },
       {
-        name        : "Mark Zuckerberg",
-        photo       : "themes/meu-material/img/speaker.jpg",
-        bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company     : "Facebook",
-        link        : {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title      : "Revelando os segredos do Facebook",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time       : "16h00"
-        }
-      },
-      {
-        name        : "Steve Wozniak",
-        photo       : "themes/meu-material/img/speaker.jpg",
-        bio         : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company     : "Apple, Inc.",
-        link        : {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title      : "Porque eu prefiro Android em vez de iOS",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time       : "17h00"
-        }
+        name: "Sorteios e Encerramento.",
+        time: "17h30"
       }
     ],
 
@@ -173,20 +115,15 @@ module.exports = {
         name: "9D studio",
         logo: "themes/meu-material/img/9d.jpg",
         url : "http://9d.com.br"
-      },
-      {
-        name: "Eventick",
-        logo: "themes/meu-material/img/sponsor.png",
-        url : "http://eventick.com.br"
       }
     ],
 
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/meu-material/img/partner.png",
-        url : "http://braziljs.org"
+        name: "PHP Maranhão",
+        logo: "http://www.phpmaranhao.com.br/wp-content/themes/phpmaranhao/images/phpma.png",
+        url : "http://phpmaranhao.com.br"
       }
     ],
 
