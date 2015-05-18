@@ -2,8 +2,8 @@
 <nav id="nav">
   <ul class="wrapper">
     <% for section in @sections : %>
-      <li class="nav-item">
-        <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+      <li class="nav-item ripple-slow" data-color="#ddd">
+        <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link ripple-slow" data-color="#ddd"><%= @labels[section] %></a>
       </li>
     <% end %>
   </ul>

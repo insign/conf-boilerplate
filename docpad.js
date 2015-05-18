@@ -64,7 +64,7 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
+        name: "Check-in / Breakfast (não perca)",
         time: "8h00"
       },
       {
@@ -73,7 +73,7 @@ module.exports = {
         bio         : "Front / back-end web developer at VAT S/A. Graduando em Engenharia da Computação, pai do Gabriel, freelancer em tempo parcial e eterno aprendiz.",
         company     : "VAT",
         link        : {
-          href: "http://twitter.com/fabiioassuncao",
+          href: "https://twitter.com/fabiioassuncao",
           text: "@fabiioassuncao"
         },
         presentation: {
@@ -83,22 +83,52 @@ module.exports = {
         }
       },
       {
+        name        : "Hélio de Oliveira",
+        photo       : "themes/meu-material/img/helio.jpg",
+        bio         : "Apaixonado por web desde a infância, tenho toda minha carreira profissional voltada para a internet. Bacharel em Administração de empresas e especializado em Gestão de TI. Trabalho principalmente na startup bookcasting.com, e em projetos próprios como o encomende.com além de participar de comunidades locais sobre PHP, web e TI em geral.",
+        company     : "9D studio",
+        link        : {
+          href: "http://helio.me",
+          text: "helio.me"
+        },
+        presentation: {
+          title      : "Fundamentos da Web",
+          description: "Com a ascensão da comunidade open-source, as novidades para desenvolvedores web crescem de forma vertiginosa. Para ajudar, a Google criou um grande manual de boas práticas no design, performance, experiência do usuário, melhores ferramentas e outros. Vamos discutir os aspectos mais importantes de cada categoria.",
+          time       : "09h30"
+        }
+      },
+      {
+        name        : "Willian Mano",
+        photo       : "themes/meu-material/img/mano.jpg",
+        bio         : "Graduando em engenharia da computação pela UEMA, Willian trabalha atualmente como Assessor da transparência na Secretaria de Estado de Transparência e Controle e supervisor de desenvolvimento da UemaNet/UEMA. Desde 2007 atua no mercado desenvolvimento soluções de software, com foco principal em soluções WEB. É membro ativo do PHP Maranhão e demais grupos de usuários do estado. Suas principais áreas de interesse são: Webservices, Gameficação, Ambientes virtuais de aprendizagem e interoperabilidade de sistemas.",
+        company     : "UemaNet / UEMA",
+        link        : {
+          href: "https://twitter.com/willian_dev",
+          text: "@willian_dev"
+        },
+        presentation: {
+          title      : "Acessibilidade na WEB: internet para todos",
+          description: "Nesta apresentação vamos aprender como tornar um site ou aplicação acessível para pessoas que possuem algum tipo de deficiência, seja ela visual, motora ou mesmo para pessoas sem deficiências.",
+          time       : "10h30"
+        }
+      },
+      {
         name: "Almoço",
         time: "11h40"
       },
       {
         photo       : "themes/meu-material/img/google.png",
         company     : "Google",
-        presentation:{
-          title       : "Keynote Oficial Google I/O",
-          description : "Apresentação do keynote oficial direto do evento Google I/O São Francisco.",  
-          time        : "13h30"
+        presentation: {
+          title      : "Keynote Oficial Google I/O",
+          description: "Apresentação do keynote oficial direto do evento Google I/O São Francisco.",
+          time       : "13h30"
         }
       },
       {
         name: "Coffee-break",
         time: "16h00"
-      }, 
+      },
       {
         name: "Painel de debate sobre as novas tecnologias.",
         time: "16h30"
@@ -115,6 +145,14 @@ module.exports = {
         name: "9D studio",
         logo: "themes/meu-material/img/9d.jpg",
         url : "http://9d.com.br"
+      }, {
+        name: "SãoLuís360",
+        logo: "themes/meu-material/img/slz360.jpg",
+        url : "http://saoluis360.com.br"
+      }, {
+        name: "Bookcasting",
+        logo: "themes/meu-material/img/bc.jpg",
+        url : "http://bookcasting.com"
       }
     ],
 
