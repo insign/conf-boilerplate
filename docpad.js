@@ -145,14 +145,6 @@ module.exports = {
         name: "9D studio",
         logo: "themes/meu-material/img/9d.jpg",
         url : "http://9d.com.br"
-      }, {
-        name: "SãoLuís360",
-        logo: "themes/meu-material/img/slz360.jpg",
-        url : "http://saoluis360.com.br"
-      }, {
-        name: "Bookcasting",
-        logo: "themes/meu-material/img/bc.jpg",
-        url : "http://bookcasting.com"
       }
     ],
 
