@@ -162,6 +162,16 @@ module.exports = {
         name: "PHP Maranhão",
         logo: "http://www.phpmaranhao.com.br/wp-content/themes/phpmaranhao/images/phpma.png",
         url : "http://phpmaranhao.com.br"
+      },
+      {
+        name: "Stickers Devs",
+        logo: "themes/meu-material/img/stickers-devs.png",
+        url : "http://www.stickersdevs.com.br"
+      },
+      {
+        name: "UNDB",
+        logo: "http://gdgsaoluis.com.br/gdg-sao-luis-day/assets/img/undb.png",
+        url : "http://www.undb.edu.br"
       }
     ],
 
