@@ -145,14 +145,6 @@ module.exports = {
         name: "9D studio",
         logo: "themes/meu-material/img/9d.jpg",
         url : "http://9d.com.br"
-      }, {
-        name: "SãoLuís360",
-        logo: "themes/meu-material/img/slz360.jpg",
-        url : "http://saoluis360.com.br"
-      }, {
-        name: "Bookcasting",
-        logo: "themes/meu-material/img/bc.jpg",
-        url : "http://bookcasting.com"
       }
     ],
 
@@ -162,6 +154,16 @@ module.exports = {
         name: "PHP Maranhão",
         logo: "http://www.phpmaranhao.com.br/wp-content/themes/phpmaranhao/images/phpma.png",
         url : "http://phpmaranhao.com.br"
+      },
+      {
+        name: "Stickers Devs",
+        logo: "themes/meu-material/img/stickers-devs.png",
+        url : "http://www.stickersdevs.com.br"
+      },
+      {
+        name: "UNDB",
+        logo: "http://gdgsaoluis.com.br/gdg-sao-luis-day/assets/img/undb.png",
+        url : "http://www.undb.edu.br"
       }
     ],
 
