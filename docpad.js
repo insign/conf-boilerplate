@@ -68,13 +68,13 @@ module.exports = {
         time: "8h00"
       },
       {
-        name        : "Fábio Assunção",
+        name        : "Estendendo o HTML com diretivas Angularjs",
         photo       : "themes/meu-material/img/perfil2.jpg",
-        bio         : "Front / back-end web developer at VAT S/A. Graduando em Engenharia da Computação, pai do Gabriel, freelancer em tempo parcial e eterno aprendiz.",
-        company     : "VAT",
+        bio         : "Focado em programação com PHP especialmente em ambiente linux. Gosta de linux e administração de servidores e últimamente tem tirado bastante proveito da dupla vagrant+puppet. Passou por diversas empresas trabalhando com desenvolvimento web e desktop nos mais variados segmentos, desde empresas privadas a órgãos de governo. É o atual presidente do grupo PHP Maranhão e trabalha para ajudar essa comunidade a tornar-se mais unida e forte.",
+        company     : "",
         link        : {
-          href: "https://twitter.com/fabiioassuncao",
-          text: "@fabiioassuncao"
+          href: "https://twitter.com/evaldobarbosa",
+          text: "@evaldobarbosa"
         },
         presentation: {
           title      : "JavaScript, um mundo além do browser.",
